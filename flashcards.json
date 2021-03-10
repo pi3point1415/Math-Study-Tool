@@ -1,0 +1,284 @@
+{
+  "Derivatives": {
+    "Basic Derivatives": [
+      {
+        "Problem": "d/dx (cu)",
+        "Answer": "cdu"
+      },
+      {
+        "Problem": "d/dx (u+-v)",
+        "Answer": "du+-dv"
+      },
+      {
+        "Problem": "d/dx (f(u))",
+        "Answer": "f'(u)du"
+      },
+      {
+        "Problem": "d/dx (uv)",
+        "Answer": "udv+vdu"
+      },
+      {
+        "Problem": "d/dx (u/v)",
+        "Answer": "(vdu-udv)/v^2"
+      },
+      {
+        "Problem": "d/dx (c)",
+        "Answer": "0"
+      },
+      {
+        "Problem": "d/dx (x)",
+        "Answer": "1"
+      },
+      {
+        "Problem": "d/dx (u^n)",
+        "Answer": "nu^(n-1)du"
+      },
+      {
+        "Problem": "d/dx (e^u)",
+        "Answer": "e^udu"
+      },
+      {
+        "Problem": "d/dx (a^u)",
+        "Answer": "ln(a)a^udu"
+      },
+      {
+        "Problem": "d/dx (ln(u))",
+        "Answer": "du/u"
+      },
+      {
+        "Problem": "d/dx (log_a(u))",
+        "Answer": "du/(ln(a)u)"
+      }
+    ],
+    "Trig Derivatives": [
+      {
+        "Problem": "d/dx (sin(u))",
+        "Answer": "cos(u)du"
+      },
+      {
+        "Problem": "d/dx (cos(u))",
+        "Answer": "-sin(u)du"
+      },
+      {
+        "Problem": "d/dx (tan(u))",
+        "Answer": "sec^2(u)du"
+      },
+      {
+        "Problem": "d/dx (cot(u))du",
+        "Answer": "-csc^2(u)du"
+      },
+      {
+        "Problem": "d/dx (sec(u))du",
+        "Answer": "sec(u)tan(u)du"
+      },
+      {
+        "Problem": "d/dx (csc(u))",
+        "Answer": "-csc(u)cot(u)du"
+      },
+      {
+        "Problem": "d/dx (sin^(-1)(u))",
+        "Answer": "du/(sqrt(1-u^2))"
+      },
+      {
+        "Problem": "d/dx (cos^(-1)(u))",
+        "Answer": "-du/(sqrt(1-u^2))"
+      },
+      {
+        "Problem": "d/dx (tan^(-1)(u))",
+        "Answer": "du/(u^2+1)"
+      },
+      {
+        "Problem": "d/dx (cot^(-1)(u))",
+        "Answer": "-du/(u^2+1)"
+      },
+      {
+        "Problem": "d/dx (sec^(-1)(u))",
+        "Answer": "du/(|u|sqrt(u^2-1))"
+      },
+      {
+        "Problem": "d/dx (csc^(-1)(u))",
+        "Answer": "-du/(|u|sqrt(u^2-1))"
+      }
+    ]
+  },
+  "Integrals": {
+    "Basic Integrals": [
+      {
+        "Problem": "int af(u)du",
+        "Answer": "aF(u)+C"
+      },
+      {
+        "Problem": "int f(u)+-g(u)du",
+        "Answer": "F(u)+-G(u)+C"
+      },
+      {
+        "Problem": "int du",
+        "Answer": "u+C"
+      },
+      {
+        "Problem": "int u^ndu",
+        "Answer": "u^(n+1)/(n+1)+C"
+      },
+      {
+        "Problem": "int du/u",
+        "Answer": "ln(u)+C"
+      },
+      {
+        "Problem": "int e^udu",
+        "Answer": "e^u+C"
+      },
+      {
+        "Problem": "int a^udu",
+        "Answer": "a^u/(ln(a))+C"
+      }
+    ],
+    "Trig Integrals": [
+      {
+        "Problem": "int sin(u)du",
+        "Answer": "-cos(u)+C"
+      },
+      {
+        "Problem": "int cos(u)du",
+        "Answer": "sin(u)+C"
+      },
+      {
+        "Problem": "int tan(u)du",
+        "Answer": "-ln(|cos(u)|)+C"
+      },
+      {
+        "Problem": "int cot(u)du",
+        "Answer": "ln(|sin(u)|)+C"
+      },
+      {
+        "Problem": "int sec(u)du",
+        "Answer": "ln(|sec(u)+tan(u)|)+C"
+      },
+      {
+        "Problem": "int csc(u)du",
+        "Answer": "-ln(|csc(u)+cot(u)|)+C"
+      },
+      {
+        "Problem": "int sec^2(u)du",
+        "Answer": "tan(u)+C"
+      },
+      {
+        "Problem": "int csc^2(u)du",
+        "Answer": "-cot(u)+C"
+      },
+      {
+        "Problem": "int sec(u)tan(u)du",
+        "Answer": "sec(u)+C"
+      },
+      {
+        "Problem": "int csc(u)cot(u)du",
+        "Answer": "-csc(u)+C"
+      },
+      {
+        "Problem": "int du/(sqrt(a^2-u^2))",
+        "Answer": "sin^(-1)(u/a)+C"
+      },
+      {
+        "Problem": "int du/(a^2+u^2)",
+        "Answer": "1/a*tan^(-1)(u/a)+C"
+      },
+      {
+        "Problem": "int du/(u*sqrt(u^2-a^2))",
+        "Answer": "1/a*sec^(-1)(u/a)+C"
+      }
+    ]
+  },
+  "Series": {
+    "Basic Types": [
+      {
+        "Problem": "$Harmonic Series",
+        "Answer": "sum_(n=1)^infty 1/n"
+      },
+      {
+        "Problem": "$P-Series",
+        "Answer": "sum_(n=1)^infty 1/n^p"
+      },
+      {
+        "Problem": "$Geometric Series",
+        "Answer": "sum_(n=0)^infty ar^n"
+      },
+      {
+        "Problem": "$Telescoping Series",
+        "Answer": "sum_(n=1)^infty 1/(n+a)-1/(n+b)"
+      },
+      {
+        "Problem": "$Alternating Series",
+        "Answer": "sum_(n=0)^infty (-1)^na_n"
+      },
+      {
+        "Problem": "$Power Series",
+        "Answer": "sum_(n=0)^infty a_nx^n"
+      }
+    ],
+    "Series Tests": [
+      {
+        "Problem": "$Nth Term Test - Divergence",
+        "Answer": "lim_(ntoinfty)a_n not=0"
+      },
+      {
+        "Problem": "$P-Series Test - Convergence",
+        "Answer": "p>1"
+      },
+      {
+        "Problem": "$Geometric Series - Value",
+        "Answer": "a_0/(1-r),|r|<1"
+      },
+      {
+        "Problem": "$Alternating Series Test - Convergence",
+        "Answer": "lim_(ntoinfty)a_n=0"
+      },
+      {
+        "Problem": "$Direct Comparison Test - Convergence",
+        "Answer": "a_n<b_n,sum b_n not=infty"
+      },
+      {
+        "Problem": "$Direct Comparison Test - Divergence",
+        "Answer": "a_n>b_n,sum b_n=infty"
+      },
+      {
+        "Problem": "$Limit Comparison Test - Convergence",
+        "Answer": "lim_(ntoinfty)(a_n/b_n) not=infty,sum b_n not=infty"
+      },
+      {
+        "Problem": "$Limit Comparison Test - Divergence",
+        "Answer": "lim_(ntoinfty)(a_n/b_n) not=infty,sum b_n =infty"
+      },
+      {
+        "Problem": "$Integral Test - Convergence",
+        "Answer": "int_0^infty a(x) not=infty,a_(n+1)<a_n,a_n>0"
+      },
+      {
+        "Problem": "$Integral Test - Divergence",
+        "Answer": "int_0^infty a(x) =infty,a_(n+1)<a_n,a_n>0"
+      },
+      {
+        "Problem": "$Ratio Test - Convergence",
+        "Answer": "lim_(ntoinfty)|(a_(n+1))/a_n|<1"
+      },
+      {
+        "Problem": "$Ratio Test - Divergence",
+        "Answer": "lim_(ntoinfty)|(a_(n+1))/a_n|>1"
+      },
+      {
+        "Problem": "$Ratio Test - Undetermined",
+        "Answer": "lim_(ntoinfty)|(a_(n+1))/a_n|=1"
+      },
+      {
+        "Problem": "$Root Test - Convergence",
+        "Answer": "lim_(ntoinfty) |a_n|^(1/n)<1"
+      },
+      {
+        "Problem": "$Root Test - Divergence",
+        "Answer": "lim_(ntoinfty) |a_n|^(1/n)>1"
+      },
+      {
+        "Problem": "$Root Test - Undetermined",
+        "Answer": "lim_(ntoinfty) |a_n|^(1/n)=1"
+      }
+    ]
+  }
+}
